@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
+    <RuntimeIdentifier>win-arm64</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RoomNotes.Core\RoomNotes.Core.csproj" />
+    <ProjectReference Include="..\..\src\RoomNotes.Speech\RoomNotes.Speech.csproj" />
+  </ItemGroup>
+</Project>
